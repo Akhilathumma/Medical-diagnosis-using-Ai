@@ -62,10 +62,10 @@ st.markdown(page_bg_img, unsafe_allow_html=True)
 
 #load the saved models
 models = {
-    'Breast_Cancer': pickle.load(open(r'C:\Users\user\Medical-diagnosis-using-Ai\models\Breast_cancer_model.sav', 'rb')),
-    'PCOS': pickle.load(open(r'C:\Users\user\Medical-diagnosis-using-Ai\models\PCOS_model.sav', 'rb')),
-    'Thyroid': pickle.load(open(r'C:\Users\user\Medical-diagnosis-using-Ai\models\Thyroid_model.sav', 'rb')),
-    'Heart_Disease': pickle.load(open(r'C:\Users\user\Medical-diagnosis-using-Ai\models\Heart_Disease_model.sav', 'rb'))
+    'Breast_Cancer': pickle.load(open(r'models\Breast_cancer_model.sav', 'rb')),
+    'PCOS': pickle.load(open(r'models\PCOS_model.sav', 'rb')),
+    'Thyroid': pickle.load(open(r'models\Thyroid_model.sav', 'rb')),
+    'Heart_Disease': pickle.load(open(r'models\Heart_Disease_model.sav', 'rb'))
 }
 
 # create a dropdown menu for disease prediction
