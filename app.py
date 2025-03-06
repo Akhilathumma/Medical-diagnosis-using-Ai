@@ -9,14 +9,10 @@
 
 # In[17]:
 
-import os
+
 import streamlit as st
 import pickle
 from streamlit_option_menu import option_menu
-
-
-# In[23]:print(f"Working Directory: {os.getcwd()}")
-print(f"Files in Directory: {os.listdir(os.getcwd())}")
 
 
 
@@ -65,13 +61,12 @@ st.markdown(page_bg_img, unsafe_allow_html=True)
 
 #load the saved models
 models = {
-    'Breast_Cancer': pickle.load(open(r'C:\Users\user\Medical-diagnosis-using-Ai\models\Breast_cancer_model.sav', 'rb')),
-    'PCOS': pickle.load(open(r'C:\Users\user\Medical-diagnosis-using-Ai\models\PCOS_model.sav', 'rb')),
-    'Thyroid': pickle.load(open(r'C:\Users\user\Medical-diagnosis-using-Ai\models\Thyroid_model.sav', 'rb')),
-    'Heart_Disease': pickle.load(open(r'C:\Users\user\Medical-diagnosis-using-Ai\models\Heart_Disease_model.sav', 'rb'))
+    'Breast_Cancer': pickle.load(open('Breast_cancer_model.sav', 'rb')),
+    'PCOS': pickle.load(open('PCOS_model.sav', 'rb')),
+    'Thyroid': pickle.load(open('Thyroid_model.sav', 'rb')),
+    'Heart_Disease': pickle.load(open('Heart_Disease_model.sav', 'rb'))
 }
 
-print("Models loaded successfully!")
 
 # create a dropdown menu for disease prediction
 selected = st.selectbox(
@@ -182,196 +177,3 @@ if selected == 'Heart Disease Prediction':
 
 import os
 print(os.getcwd())  # This prints your current working directory
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
