@@ -286,7 +286,6 @@ toolz
 tornado 
 tqdm 
 traitlets  
-twisted-iocpsupport 
 typing_extensions==4.12.2
 uc-micro-py 
 ujson 
