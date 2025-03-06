@@ -9,13 +9,16 @@
 
 # In[17]:
 
-
+import os
 import streamlit as st
 import pickle
 from streamlit_option_menu import option_menu
 
 
-# In[23]:
+# In[23]:print(f"Working Directory: {os.getcwd()}")
+print(f"Files in Directory: {os.listdir(os.getcwd())}")
+
+
 
 
 # change Name & menu
@@ -67,6 +70,8 @@ models = {
     'Thyroid': pickle.load(open(r'C:\Users\user\Medical-diagnosis-using-Ai\models\Thyroid_model.sav', 'rb')),
     'Heart_Disease': pickle.load(open(r'C:\Users\user\Medical-diagnosis-using-Ai\models\Heart_Disease_model.sav', 'rb'))
 }
+
+print("Models loaded successfully!")
 
 # create a dropdown menu for disease prediction
 selected = st.selectbox(
