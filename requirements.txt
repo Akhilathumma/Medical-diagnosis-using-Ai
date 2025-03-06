@@ -227,8 +227,7 @@ pytoolconfig
 pytz 
 pyviz-comms 
 PyWavelets 
-pywin32-ctypes 
-pywinpty 
+pywin32-ctypes  
 PyYAML 
 pyzmq     
 queuelib==1.5.0
