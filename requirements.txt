@@ -47,7 +47,6 @@ cycler
 cytoolz
 daal4py==2023.1.1
 dask 
-datashape==0.5.4
 debugpy 
 decorator 
 defusedxml 
