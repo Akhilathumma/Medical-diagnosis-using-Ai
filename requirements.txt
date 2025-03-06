@@ -161,7 +161,7 @@ nest-asyncio
 networkx  
 notebook 
 notebook_shim 
-numba 
+numba>=0.55.0
 numexpr 
 numpy 
 numpydoc 
