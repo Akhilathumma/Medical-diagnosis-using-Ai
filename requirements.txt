@@ -242,8 +242,6 @@ rich==13.9.4
 rope 
 rsa==4.9
 Rtree 
-ruamel-yaml-conda 
-ruamel.yaml    
 scikit-image 
 scikit-learn 
 scikit-learn-intelex==20230426.121932
