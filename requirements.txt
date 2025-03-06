@@ -144,7 +144,7 @@ mccabe
 mdit-py-plugins 
 mdurl  
 mistune
-ml-dtypes==0.2.0
+ml-dtypes>=0.3.2
 mlxtend==0.23.0
 more-itertools  
 msgpack 
