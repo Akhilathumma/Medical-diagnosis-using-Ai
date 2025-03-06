@@ -203,7 +203,6 @@ pyasn1-modules==0.2.8
 pycodestyle  
 pycparser 
 pyct 
-pycurl==7.45.2
 pydeck==0.9.1
 PyDispatcher==2.0.5
 pydocstyle 
