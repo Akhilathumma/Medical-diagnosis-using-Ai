@@ -270,7 +270,7 @@ streamlit==1.42.2
 streamlit-option-menu==0.4.0 
 tables 
 tabulate 
-TBB==0.2
+TBB
 tblib 
 tenacity 
 termcolor==2.4.0
