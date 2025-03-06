@@ -244,7 +244,7 @@ rsa==4.9
 Rtree 
 scikit-image 
 scikit-learn 
-scikit-learn-intelex==20230426.121932
+scikit-learn-intelex
 scipy==1.10.1 
 seaborn 
 Send2Trash 
