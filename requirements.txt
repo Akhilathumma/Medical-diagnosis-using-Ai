@@ -129,8 +129,7 @@ keyring
 kiwisolver 
 lazy-object-proxy 
 lazy_loader 
-libclang==16.0.6
-libmambapy 
+libclang==16.0.6 
 linkify-it-py 
 llvmlite 
 lmdb 
