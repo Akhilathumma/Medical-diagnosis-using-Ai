@@ -1,15 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[13]:
-
-
-
-
-
-# In[17]:
-
-
 import streamlit as st
 import pickle
 from streamlit_option_menu import option_menu
