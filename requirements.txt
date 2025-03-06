@@ -144,9 +144,6 @@ mccabe
 mdit-py-plugins 
 mdurl  
 mistune
-mkl-fft==1.3.6
-mkl-random 
-mkl-service==2.4.0
 ml-dtypes==0.2.0
 mlxtend==0.23.0
 more-itertools  
